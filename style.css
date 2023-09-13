@@ -1,10 +1,38 @@
+html{
+    height: 100%;
+}
+
 body{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    background-color:#e5e5e5
 }
 
 svg{
     background-color: #eeeee4;
+    align-items: center;
+}
+
+.bar{
+    background-color: #0a6b6d;
+    border-color: #0a6b6d;
+    fill: #0a6b6d;
+}
+
+.bar:hover{
+    fill: #023d3e;
+}
+
+#tooltip{
+    margin-top: 10px;
+    color: #454c4c;
+    font-size: 28px;
+}
+
+#title{
+    font-size: 30px;
+    fill: #17252A;
 }
